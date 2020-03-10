@@ -64,7 +64,7 @@ exclude:
 
 # this setting allows you to keep pages organized in the _pages folder
 include:
-  #- _pages
+  - _pages
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
