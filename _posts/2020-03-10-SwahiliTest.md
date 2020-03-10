@@ -1,3 +1,10 @@
+---
+toc: true
+layout: post
+description: Swahili Translation
+categories: [markdown]
+---
+
 Sisi ni wanasayansi wa data-Hiyo ni, kazi yetu ni kuelewa jinsi ya kuchambua na kutafsiri data. Wakati tunachambua data karibu covid-19, tunajali sana. Sehemu zilizo hatarini zaidi za jamii, wazee na masikini, ziko hatarini zaidi, lakini kudhibiti kuenea na athari za ugonjwa kunahitaji sisi sote kubadili tabia yetu. Osha mikono yako vizuri na mara kwa mara, epuka vikundi na umati wa watu, futa matukio, na usiguse uso wako. Katika chapisho hili, tunaelezea kwa nini tunajali, na unapaswa kuwa pia. Kwa muhtasari bora wa habari muhimu unayohitaji kujua, soma Corona kwa kifupi na Ethan Alley (rais wa mashirika yasiyo ya faida ambayo huendeleza teknolojia za kupunguza hatari kutoka kwa magonjwa ya milipuko).
 
 # Tafsiri
@@ -20,6 +27,8 @@ Anyone is welcome to translate this article, to help their local communities und
 
 Zaidi ya miaka 2 iliyopita mmoja wetu (Rachel) alipata maambukizi ya ubongo ambayo huua karibu 1/4 ya watu wanaopata, na huacha 1/3 akiwa na udhaifu wa kudumu wa utambuzi. Wengine wengi huishia na maono ya kudumu na uharibifu wa kusikia. Rachel alikuwa mwepesi wakati wa kutambaa katika maegesho ya hospitali. Alikuwa na bahati ya kutosha kupata utunzaji wa haraka, utambuzi, na matibabu. Hadi muda mfupi kabla ya tukio hili Rachel alikuwa kwenye afya njema. Kuwa na ufikiaji wa haraka katika chumba cha dharura hakika kuliokoa maisha yake.
 
-![A group of people standing in a tent Description automatically generated](/images/2020-03-10-SwahiliTest//media/image1.jpeg)
+ <p align="center">
+  <img src="https://www.fast.ai/images/coronavirus/image1.jpeg" width="60%">
+</p>
 
 Dr Antonio Pesenti, mkuu wa kitengo cha kukabiliana na msiba wa mkoa katika eneo lililo ngumu sana nchini Italia, alisema, "Sasa tunalazimishwa kuanzisha matibabu ya matunzo makubwa katika barabara, katika uwanja wa michezo, katika vyumba vya uokoaji ... Moja ya mifumo bora ya afya ulimwenguni, huko Lombardy ni hatua mbali na kuanguka. ".
