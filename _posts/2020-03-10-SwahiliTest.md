@@ -27,6 +27,6 @@ Anyone is welcome to translate this article, to help their local communities und
 
 Zaidi ya miaka 2 iliyopita mmoja wetu (Rachel) alipata maambukizi ya ubongo ambayo huua karibu 1/4 ya watu wanaopata, na huacha 1/3 akiwa na udhaifu wa kudumu wa utambuzi. Wengine wengi huishia na maono ya kudumu na uharibifu wa kusikia. Rachel alikuwa mwepesi wakati wa kutambaa katika maegesho ya hospitali. Alikuwa na bahati ya kutosha kupata utunzaji wa haraka, utambuzi, na matibabu. Hadi muda mfupi kabla ya tukio hili Rachel alikuwa kwenye afya njema. Kuwa na ufikiaji wa haraka katika chumba cha dharura hakika kuliokoa maisha yake.
 
-![A group of people standing in a tent Description automatically generated](/images/2020-03-10-SwahiliTest/media/image1.jpeg)
+![A group of people standing in a tent Description automatically generated](images/2020-03-10-SwahiliTest/media/image1.jpeg)
 
 Dr Antonio Pesenti, mkuu wa kitengo cha kukabiliana na msiba wa mkoa katika eneo lililo ngumu sana nchini Italia, alisema, "Sasa tunalazimishwa kuanzisha matibabu ya matunzo makubwa katika barabara, katika uwanja wa michezo, katika vyumba vya uokoaji ... Moja ya mifumo bora ya afya ulimwenguni, huko Lombardy ni hatua mbali na kuanguka. ".
