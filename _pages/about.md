@@ -1,12 +1,16 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /fastpages/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
+ 
+ <p align="center">
+  <img src="https://github.com/fastai/fastpages/raw/master/images/diagram.png" width="60%">
+</p>
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+[fastpages](https://github.com/fastai/fastpages) automates the process of creating blog posts via GitHub Actions, so you don't have to fuss with conversion scripts.  A full list of features can be found on [GitHub](https://github.com/fastai/fastpages).  
 
 
 
