@@ -164,11 +164,26 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#Goal:">Goal: </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Load-the-Data">Load the Data </a></li>
-<li class="toc-entry toc-h3"><a href="#Viewing-the-Data">Viewing the Data </a></li>
-<li class="toc-entry toc-h3"><a href="#Modelling">Modelling </a></li>
+<li class="toc-entry toc-h3"><a href="#Viewing-the-Data">Viewing the Data </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#View-Dicom">View Dicom </a></li>
+<li class="toc-entry toc-h4"><a href="#Create-a-Dataframe">Create a Dataframe </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#Modelling">Modelling </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Patient-Overlap">Patient Overlap </a></li>
+<li class="toc-entry toc-h4"><a href="#Sampling">Sampling </a></li>
+<li class="toc-entry toc-h4"><a href="#Augmentations">Augmentations </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h3"><a href="#Model-Evaluation">Model Evaluation </a>
 <ul>
+<li class="toc-entry toc-h4"><a href="#Accuracy">Accuracy </a></li>
+<li class="toc-entry toc-h4"><a href="#False-Positive-&-False-Negative">False Positive &amp; False Negative </a></li>
+<li class="toc-entry toc-h4"><a href="#Sensitivity-&-Specificity">Sensitivity &amp; Specificity </a></li>
 <li class="toc-entry toc-h4"><a href="#PPV-and-NPV">PPV and NPV </a></li>
+<li class="toc-entry toc-h4"><a href="#Confusion-Matrix">Confusion Matrix </a></li>
 <li class="toc-entry toc-h4"><a href="#Negative-Predictive-Value-(NPV)">Negative Predictive Value (NPV) </a></li>
 </ul>
 </li>
@@ -296,6 +311,15 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="View-Dicom">
+<a class="anchor" href="#View-Dicom" aria-hidden="true"><span class="octicon octicon-link"></span></a>View Dicom<a class="anchor-link" href="#View-Dicom"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>The <code>show</code> function is specifically tailored to display <code>.dcm</code> formats. By customizing the <code>show</code> function we have now view patient information with each image</p>
 
 </div>
@@ -376,6 +400,15 @@ Rows: 1024 Columns: 1024
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Create-a-Dataframe">
+<a class="anchor" href="#Create-a-Dataframe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create a Dataframe<a class="anchor-link" href="#Create-a-Dataframe"> </a>
+</h4>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -694,7 +727,15 @@ Customize the functions so that we include what we want in our dataframe</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Patient Overlap</strong></p>
+<h4 id="Patient-Overlap">
+<a class="anchor" href="#Patient-Overlap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Patient Overlap<a class="anchor-link" href="#Patient-Overlap"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>It is important to know if there is going to be any patient overlap when creating the train and validation sets as this may lead to an overly optimistic test set.  The great thing about <code>DICOMs</code> is that we can check to see if there are any duplicate <code>patientID</code>s in the test and valid sets when we split our data</p>
 
 </div>
@@ -794,7 +835,15 @@ Customize the functions so that we include what we want in our dataframe</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Sampling</strong></p>
+<h4 id="Sampling">
+<a class="anchor" href="#Sampling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sampling<a class="anchor-link" href="#Sampling"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>This dataset has 2 classes <code>Pneumothorax</code> and <code>No Pneumothorax</code>, <code>DataSplit</code> looks at how many <code>Pneumothorax</code> and <code>No Pneumothorax</code> images are in the <code>train</code> and <code>valid</code> sets.  This is to view how fair the train/val split is to ensure good model sampling</p>
 
 </div>
@@ -907,8 +956,9 @@ Customize the functions so that we include what we want in our dataframe</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Augmentations</strong></p>
-
+<h4 id="Augmentations">
+<a class="anchor" href="#Augmentations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Augmentations<a class="anchor-link" href="#Augmentations"> </a>
+</h4>
 </div>
 </div>
 </div>
@@ -1586,6 +1636,22 @@ Customize the functions so that we include what we want in our dataframe</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Because medical models are high impact it is important to know how good a model is at detecting a certain condition.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Accuracy">
+<a class="anchor" href="#Accuracy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Accuracy<a class="anchor-link" href="#Accuracy"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>The above model has an <code>accuracy</code> of 69%.  One needs to look deeper into how the accuracy of 69% was calculated and whether it is acceptable.</p>
 <ul>
 <li>
@@ -1595,6 +1661,22 @@ Customize the functions so that we include what we want in our dataframe</p>
 <li>
 <code>Accuracy</code> is the probability that the model is correct and the patient has the condition PLUS the probability that the model is correct and the patient does not have the condition </li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="False-Positive-&amp;-False-Negative">
+<a class="anchor" href="#False-Positive-&amp;-False-Negative" aria-hidden="true"><span class="octicon octicon-link"></span></a>False Positive &amp; False Negative<a class="anchor-link" href="#False-Positive-&amp;-False-Negative"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>There are some other key terms that need to be used when evaluating medical models:</p>
 <ul>
 <li>
@@ -1604,6 +1686,22 @@ Customize the functions so that we include what we want in our dataframe</p>
 <li>
 <code>False Positive</code> is an error in which a test result improperly indicates presence of a condition, such as a disease (the result is positive), when in reality it is not present</li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Sensitivity-&amp;-Specificity">
+<a class="anchor" href="#Sensitivity-&amp;-Specificity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sensitivity &amp; Specificity<a class="anchor-link" href="#Sensitivity-&amp;-Specificity"> </a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>
 <code>Sensitivity</code> or <code>True Positive Rate</code> is where the model classifies a patient has the disease given the patient actually does have the disease. Sensitivity quantifies the avoidance of false negatives</li>
@@ -1642,6 +1740,15 @@ Customize the functions so that we include what we want in our dataframe</p>
 <p>The ideal value of the PPV, with a perfect test, is 1 (100%), and the worst possible value would be zero</p>
 <p>The ideal value of the NPV, with a perfect test, is 1 (100%), and the worst possible value would be zero</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Confusion-Matrix">
+<a class="anchor" href="#Confusion-Matrix" aria-hidden="true"><span class="octicon octicon-link"></span></a>Confusion Matrix<a class="anchor-link" href="#Confusion-Matrix"> </a>
+</h4>
 </div>
 </div>
 </div>
