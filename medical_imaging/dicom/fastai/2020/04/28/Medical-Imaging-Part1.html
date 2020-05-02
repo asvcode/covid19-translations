@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-04-28T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Reviewing fastai notebook 60_medical.imaging.ipynb","headline":"Medical Imaging Part1","@type":"BlogPosting","dateModified":"2020-04-28T00:00:00-05:00","datePublished":"2020-04-28T00:00:00-05:00","image":"https://asvcode.github.io/Blogs/images/part1.PNG","mainEntityOfPage":{"@type":"WebPage","@id":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html"},"url":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html","@context":"https://schema.org"}</script>
+{"description":"Reviewing fastai notebook 60_medical.imaging.ipynb","dateModified":"2020-04-28T00:00:00-05:00","datePublished":"2020-04-28T00:00:00-05:00","headline":"Medical Imaging Part1","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html"},"image":"https://asvcode.github.io/Blogs/images/part1.PNG","url":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Blogs/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://asvcode.github.io/Blogs/feed.xml" title="Blogs" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-78184009-1"></script>
 <script>
@@ -41,7 +41,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-04-28T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Reviewing fastai notebook 60_medical.imaging.ipynb","headline":"Medical Imaging Part1","@type":"BlogPosting","dateModified":"2020-04-28T00:00:00-05:00","datePublished":"2020-04-28T00:00:00-05:00","image":"https://asvcode.github.io/Blogs/images/part1.PNG","mainEntityOfPage":{"@type":"WebPage","@id":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html"},"url":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html","@context":"https://schema.org"}</script>
+{"description":"Reviewing fastai notebook 60_medical.imaging.ipynb","dateModified":"2020-04-28T00:00:00-05:00","datePublished":"2020-04-28T00:00:00-05:00","headline":"Medical Imaging Part1","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html"},"image":"https://asvcode.github.io/Blogs/images/part1.PNG","url":"https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -210,9 +210,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>DICOM</strong>(<strong>D</strong>igital <strong>I</strong>maging and <strong>CO</strong>mmunications in <strong>M</strong>edicine) is the de-facto standard that establishes rules that allow medical images(X-Ray, MRI, CT) and associated information to be exchanged between imaging equipment from different vendors, computers, and hospitals. The DICOM format provides a suitable means that meets <a href="https://www.himss.org/interoperability-and-health-information-exchange">health infomation exchange</a> (HIE) standards for transmision of health related data among facilites and HL7 standards which is the messaging standard that enables clinical applications to exchange data.</p>
-<p><img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/dicom_wf.PNG" alt="Workflow"></p>
-<p>Test
-<img src="/Blogs/images/copied_from_nb/my_icons/dicom_wf.PNG" alt="Workflow"></p>
+<p><img src="/Blogs/images/copied_from_nb/my_icons/dicom_wf.PNG" alt="Workflow"></p>
 <p>DICOM files typically have a .dcm extension and provides a means of storing data in seperate <strong>'tags'</strong> such as patient information as well as image/pixel data. A DICOM file consists of a header and image data sets packed into a single file. The information within the header is organized as a constant and standardized series of tags. By extracting data from these tags one can access important information regarding the patient demographics, study parameters, etc</p>
 <p>16 bit DICOM images have values ranging from -32768 to 32768 while 8-bit greyscale images store values from 0 to 255. The value ranges in DICOM images are useful as they correlate with the <a href="https://en.wikipedia.org/wiki/Hounsfield_scale">Hounsfield Scale</a> which is a quantitative scale for describing radiodensity</p>
 <center>
@@ -220,7 +218,7 @@ window.onload = wrap_img;
      Parts of a DICOM
 
 </center>
-<p><img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/dicom_.PNG" alt="Workflow"></p>
+<p><img src="/Blogs/images/copied_from_nb/my_icons/dicom_.PNG" alt="Dicom"></p>
 
 </div>
 </div>
@@ -257,7 +255,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Fastai provides an easy to access slim dicom dataset (250 DICOM files, ~30MB) from the <a href="https://doi.org/10.1007/s10278-019-00299-9">SIIM-ACR Pneumothorax Segmentation dataset</a> for us to experiment with dicom images.  The file structure of the dataset is as follows:</p>
-<p><img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/dicom.PNG" alt="SIIM_SLIM"></p>
+<p><img src="/Blogs/images/copied_from_nb/my_icons/dicom.PNG" alt="SIIM_SLIM"></p>
 
 </div>
 </div>
