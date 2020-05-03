@@ -3,7 +3,7 @@ toc: false
 layout: post
 description: This is the Swahili translation of the article written by Jeremy Howard and Rachel Thomas [Covid-19, your community, and you — a data science perspective]
 categories: [Coronavirus, Covid19, Sawhili, Kiswahili]
-image: images/tent.PNG
+image: images/part5.PNG
 ---
 
 # Covid-19, your community, and you — a data science perspective
