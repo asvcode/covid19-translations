@@ -61,8 +61,8 @@
 
   
       ,"page1": {
-          "title": "About Me",
-          "content": "This site is built with fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks. . . fastpages automates the process of creating blog posts via GitHub Actions, so you don’t have to fuss with conversion scripts. A full list of features can be found on GitHub. .",
+          "title": "Amrit(me)",
+          "content": "About . This site is built with fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks. . . fastpages automates the process of creating blog posts via GitHub Actions, so you don’t have to fuss with conversion scripts. A full list of features can be found on GitHub. .",
           "url": "https://asvcode.github.io/Blogs/fastpages/",
           "relUrl": "/fastpages/",
           "date": ""
