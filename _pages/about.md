@@ -10,7 +10,7 @@ permalink: /fastpages/
   _AVirdee
   <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/linkedin.png" width="5%" title="linkedin">
   amritvirdee
-  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/github.png" width="5%", title="github">
+  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/github.png" width="5%" title="github">
   asvcode
 </p>
 
