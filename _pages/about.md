@@ -7,26 +7,15 @@ permalink: /fastpages/
 About
 
  <p align="center">
-  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png" width="5%" title="twitter" alt+'>
-  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/linkedin.png" width="5%">
-  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/github.png" width="5%">
+  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png" width="5%" title="twitter">
+  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/linkedin.png" width="5%" title="linkedin">
+  <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/github.png" width="5%", title="github">
 </p>
 
-<p align="center">
-  <figure>
-    <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png" width="5%" alt="twitter"/>
-    <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/linkedin.png" width="5%">
-    <figcaption>This is my caption text.</figcaption>
-  </figure>
-</p>
 
-<a href="https://twitter.com/_AVirdee" rel="some text">![twitter](images/twitter.png)</a>
-
-
-
-| ![space-1.jpg](https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png) | 
+| ![twitter](https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png) | 
 |:--:| 
-| *Space* |
+| (https://twitter.com/_AVirdee)|
 
 This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
  
