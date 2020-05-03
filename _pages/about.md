@@ -12,11 +12,6 @@ About
   <img src="https://raw.githubusercontent.com/asvcode/Blogs/master/images/github.png" width="5%", title="github">
 </p>
 
-
-| ![twitter](https://raw.githubusercontent.com/asvcode/Blogs/master/images/twitter.png) | 
-|:--:| 
-| (https://twitter.com/_AVirdee)|
-
 This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
  
  <p align="center">
