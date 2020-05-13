@@ -198,7 +198,7 @@ window.onload = wrap_img;
 <li>Kaggle has an easily accessible (437MB) <a href="https://www.kaggle.com/kmader/siim-medical-images">CT medical image dataset</a> from the cancer imaging archive.  The dataset consists of 100 images (512px by 512px) with pixel ranges from -2000 to +2000</li>
 </ul>
 <ul>
-<li>The <a href="https://opencas.webarchiv.kit.edu/?q=node/29">Thyroid Segmentation in Ultrasonography Dataset</a> provides low quality (ranging form 253px by 253px) DICOM images where each DICOM image has multiple frames (average of 1000)</li>
+<li>The <a href="https://opencas.webarchiv.kit.edu/?q=node/29">Thyroid Segmentation in Ultrasonography Dataset</a> provides low quality (ranging from 253px by 253px) DICOM images where each DICOM image has multiple frames (average of 1000)</li>
 </ul>
 
 </div>
@@ -347,7 +347,7 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The <a href="https://opencas.webarchiv.kit.edu/?q=node/29">Thyroid Segmentation in Ultrasonography Dataset</a> is a datset where each <code>DICOM</code>file has multiple frames per file.  Using the same format as above to view an image:</p>
+<p>The <a href="https://opencas.webarchiv.kit.edu/?q=node/29">Thyroid Segmentation in Ultrasonography Dataset</a> is a dataset where each <code>DICOM</code>file has multiple frames per file.  Using the same format as above to view an image:</p>
 
 </div>
 </div>
@@ -1193,8 +1193,8 @@ Shape: torch.Size([512, 512])
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The histogram shows that the minimal pixel value is <code>0</code> and the maximum pixel value is <code>1918</code>.  The histogram is predominantly bi-modal with the majority of pixels between the <code>0</code> and <code>100</code> pixels and between <code>750</code> and <code>1100</code> pixels.</p>
 <p>This image has a <code>RescaleIntercept</code> of <code>-1024</code> and a <code>RescaleSlope</code> of <code>1</code>.  These two values allows for transforming pixel values into <a href="https://en.wikipedia.org/wiki/Hounsfield_scale">Hounsfield Units(HU)</a>.  Densities of different tissues on CT scans are measured in HUs</p>
-<p>Most CT scans range from <code>-1000</code>HUs to <code>+1000</code>HUs where water is <code>0</code>HUs, air is <code>-1000</code>HUs and the more denser the tissues the higher the HU value.  Metals have a much higher HU range <code>+2000</code>HUs so for medical imaging a range of <code>-1000</code> to <code>+1000</code>HUs is suitable</p>
-<p>The pixel values above do not correctly correspond to tissue densities.  For example most of the pixels are between pixel values <code>0</code> and <code>100</code> which correspond to water but this image is predomantly showing the lungs which are filled with air.  Air on the Hounsfield scale is <code>-1000</code> HUs.</p>
+<p>Most CT scans range from <code>-1000</code>HUs to <code>+1000</code>HUs where water is <code>0</code>HUs, air is <code>-1000</code>HUs and the denser the tissues the higher the HU value.  Metals have a much higher HU range <code>+2000</code>HUs so for medical imaging a range of <code>-1000</code> to <code>+1000</code>HUs is suitable</p>
+<p>The pixel values above do not correctly correspond to tissue densities.  For example most of the pixels are between pixel values <code>0</code> and <code>100</code> which correspond to water but this image is predominantly showing the lungs which are filled with air.  Air on the Hounsfield scale is <code>-1000</code> HUs.</p>
 <p>This is where <code>RescaleIntercept</code> and <code>RescaleSlope</code> are important.  Fastai provides a convenient way <code>scaled_px</code> to rescale the pixels with respect to <code>RescaleIntercept</code> and <code>RescaleSlope</code>.</p>
 <p><strong>rescaled pixel = pixel * RescaleSlope + RescaleIntercept</strong></p>
 
@@ -1284,7 +1284,7 @@ Min pixel: -1024.0
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>After re-scaling the maximum pixel value is <code>894</code> and the minimum value is <code>-1024</code> and we can now correctly see what parts of the image correspond to what parts of the body based on the Hounsfeld scale.</p>
+<p>After re-scaling the maximum pixel value is <code>894</code> and the minimum value is <code>-1024</code> and we can now correctly see what parts of the image correspond to what parts of the body based on the Hounsfield scale.</p>
 <p>Looking at the top end of the histogram what does the image look like with values over 300 HUs?</p>
 <p>The <code>show</code> function has the capability of specifying <code>max</code> and <code>min</code> values</p>
 
@@ -1582,7 +1582,7 @@ Min pixel: -1024.0
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Image re-scaling as done above is really for the benefit of humans.  Computer screens can display about 256 shades of grey and the human eye is only capable of detecting about a 6% change in greyscale (<a href="https://www.youtube.com/watch?v=KZld-5W99cI">ref</a>) meaning the human eye can only detect about 17 different shades of grey.</p>
-<p>DICOM images may have a wide range from <code>-1000</code> to <code>+1000</code> and in order for humans to be able to see relevant structures within the image a process of <code>windowing</code> is utilized.  Fastai provides various <code>dicom_windows</code> so that only specific HU values are displayed on the screen.  More about windowing can be found <a href="https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html#%3E%3E-Side-Note:-Windowing">here</a></p>
+<p>DICOM images may have a wide range from <code>-1000</code> to <code>+1000</code> and for humans to be able to see relevant structures within the image a process of <code>windowing</code> is utilized.  Fastai provides various <code>dicom_windows</code> so that only specific HU values are displayed on the screen.  More about windowing can be found <a href="https://asvcode.github.io/Blogs/medical_imaging/dicom/fastai/2020/04/28/Medical-Imaging-Part1.html#%3E%3E-Side-Note:-Windowing">here</a></p>
 
 </div>
 </div>
@@ -1599,7 +1599,7 @@ Min pixel: -1024.0
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Where <code>windowing</code> is for the benefit of the human, computers produce better results from training when the data has a uniform distribution as mentioned in an article by Jeremy <a href="https://www.kaggle.com/jhoward/don-t-see-like-a-radiologist-fastai/data">dont see like a radiologist</a></p>
+<p>Where <code>windowing</code> is for the benefit of the human, computers produce better results from training when the data has a uniform distribution as mentioned in an article by Jeremy <a href="https://www.kaggle.com/jhoward/don-t-see-like-a-radiologist-fastai/data">don't see like a radiologist</a></p>
 <p>Looking back at the pixel distribution we can see that the image does not have a uniform distribution</p>
 
 </div>
