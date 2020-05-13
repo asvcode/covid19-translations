@@ -186,7 +186,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h4"><a href="#Sensitivity-&-Specificity">Sensitivity &amp; Specificity </a></li>
 <li class="toc-entry toc-h4"><a href="#PPV-and-NPV">PPV and NPV </a></li>
 <li class="toc-entry toc-h4"><a href="#Confusion-Matrix">Confusion Matrix </a></li>
-<li class="toc-entry toc-h4"><a href="#Negative-Predictive-Value-(NPV)">Negative Predictive Value (NPV) </a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h3"><a href="#Calculating-Accuracy">Calculating Accuracy </a></li>
@@ -232,6 +231,30 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">fastai2.basics</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">fastai2.callback.all</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">fastai2.vision.all</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">fastai2.medical.imaging</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="kn">import</span> <span class="nn">pydicom</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="n">matplotlib</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">'image.cmap'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'bone'</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -1996,9 +2019,8 @@ Customize the functions so that we include what we want in our dataframe</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Negative-Predictive-Value-(NPV)">
-<a class="anchor" href="#Negative-Predictive-Value-(NPV)" aria-hidden="true"><span class="octicon octicon-link"></span></a>Negative Predictive Value (NPV)<a class="anchor-link" href="#Negative-Predictive-Value-(NPV)"> </a>
-</h4>
+<p><strong>Negative Predictive Value (NPV)</strong></p>
+
 </div>
 </div>
 </div>
