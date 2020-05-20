@@ -4,10 +4,10 @@
 ![](https://github.com/asvcode/covid19-translations/workflows/GH-Pages%20Status/badge.svg) 
 
 
-[![](https://img.shields.io/static/v1?label=Medical%20Imaging%20Tutorial&message=link&labelColor=2f363d&color=blue&style=flat&logo=github&logoColor=959da5)](https://asvcode.github.io/Blogs/)
+[![](https://img.shields.io/static/v1?label=AV%20Blog&message=link&labelColor=2f363d&color=blue&style=flat&logo=github&logoColor=959da5)](https://asvcode.github.io/Blogs/)
 
 
-# My Blog
+# AV Blog
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
