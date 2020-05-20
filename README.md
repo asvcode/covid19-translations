@@ -9,6 +9,8 @@
 
 # AV Blog
 
+Click on the link above to get to my blog
+
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
