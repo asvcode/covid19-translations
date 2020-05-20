@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Amrit(Me)
+title: About
 permalink: /fastpages/
 ---
 
