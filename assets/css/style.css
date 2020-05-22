@@ -337,7 +337,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
-[class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #1028de !important; color: #c2c265; }
+[class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #ffffff !important; color: #c2c265; }
 
 .language-python + .language-plaintext code { background-color: white !important; }
 
@@ -379,15 +379,15 @@ li .post-meta-description { color: #585858; font-size: 15px; margin-top: .05rem 
 
 /* Dracula Theme v1.2.5 https://github.com/zenorocha/dracula-theme Copyright 2016, All rights reserved Code licensed under the MIT license */
 /* Styles */
-.highlight { background: #1028de !important; color: #ffb86c !important; }
+.highlight { background: #ffffff !important; color: #ffb86c !important; }
 
-.highlight pre, .highlight code { background: #1028de; color: #f1fa8c; }
+.highlight pre, .highlight code { background: #ffffff; color: #f1fa8c; }
 
 .highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #e7997a; }
 
 .highlight .go { color: #44475a; }
 
-.highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #c2c265; background-color: #1028de !important; }
+.highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #c2c265; background-color: #ffffff !important; }
 
 .highlight .p { font-weight: bold; color: #66d9ef; }
 
