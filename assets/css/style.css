@@ -381,7 +381,7 @@ li .post-meta-description { color: #585858; font-size: 15px; margin-top: .05rem 
 /* Styles */
 .highlight { background: #ffffff !important; color: #1a1a1c !important; }
 
-.highlight pre, .highlight code { background: #ffffff; color: #4c8bcf; }
+.highlight pre, .highlight code { background: #ffffff; color: #0d0d0d; }
 
 .highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #e7997a; }
 
