@@ -339,7 +339,7 @@ table td { border: 1px solid #e8e8e8; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #1028de !important; color: #c2c265; }
 
-.language-python + .language-plaintext code { background-color: blue !important; }
+.language-python + .language-plaintext code { background-color: white !important; }
 
 .language-python + .language-plaintext pre { background-color: white !important; }
 
@@ -353,7 +353,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .code_cell table { width: auto; }
 
-.page-content { -webkit-font-smoothing: antialiased !important; text-rendering: optimizeLegibility !important; font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important; background: #e9e9f0 !important; }
+.page-content { -webkit-font-smoothing: antialiased !important; text-rendering: optimizeLegibility !important; font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif !important; background: #4ddb4f !important; }
 
 .post-content p, .post-content li { font-size: 20px; color: #515151; }
 
