@@ -151,10 +151,10 @@ li {
 
  .highlight {
    background: $dt-code-cell-background !important;
-   color: $dt-gray-light !important;
+   color: $dt-orange !important; //$dt-gray-light
    pre, code {
     background: $dt-code-cell-background;
-    color: $dt-gray-light;
+    color: $dt-yellow; //dt=$dt-gray-light
    }
 
    .hll,
