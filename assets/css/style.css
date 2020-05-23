@@ -401,11 +401,11 @@ li .post-meta-description { color: #585858; font-size: 15px; margin-top: .05rem 
 
 .highlight .kd, .highlight .nb, .highlight .nl, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { font-style: italic; }
 
-.highlight .fm, .highlight .na, .highlight .nc, .highlight .nf { color: white; }
+.highlight .fm, .highlight .na, .highlight .nc, .highlight .nf { color: black; }
 
 .highlight .k, .highlight .o, .highlight .cp, .highlight .kc, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .nt, .highlight .ow { color: #050505; }
 
-.highlight .kc { color: white; }
+.highlight .kc { color: black; }
 
 .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #050505; }
 
