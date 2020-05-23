@@ -389,7 +389,7 @@ li .post-meta-description { color: black; font-size: 15px; margin-top: .05rem !i
 
 .highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #c2c265; background-color: #ffffff !important; }
 
-.highlight .p { font-weight: bold; color: #66d9ef; }
+.highlight .p { font-weight: bold; color: black; }
 
 .highlight .ge { text-decoration: underline; }
 
