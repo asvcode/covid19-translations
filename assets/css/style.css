@@ -383,7 +383,7 @@ li .post-meta-description { color: black; font-size: 15px; margin-top: .05rem !i
 
 .highlight pre, .highlight code { background: #ffffff; color: #0d0d0d; }
 
-.highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: black; }
+.highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #99ff99; }
 
 .highlight .go { color: #44475a; }
 
